@@ -8,7 +8,6 @@ def read_file(file_path, output_type=''):
 
     else:
         with open(file_path, 'r') as file:
-            # return file.readlines()
             return [x.strip() for x in file.readlines()]
 
 def read_json(filepath):
